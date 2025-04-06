@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.forms {
+    display: grid;
+    width: fit-content;
+    grid-template-columns: 100px 150px 300px;
+    gap: 5px;
+    margin: auto;
+    font-size: 1.2rem;
+    padding: 20px;
+}
+.formsAdd {
+    display: grid;
+    width: fit-content;
+    grid-template-columns: 200px 150px 300px;
+    gap: 5px;
+    margin: auto;
+    font-size: 1.2rem;
+    padding: 20px;
+}
+
+h1 {
+    width: fit-content;
+    margin: auto;
+}
+.eroare {
+    color: red;
+}
+
+nav ul {
+    display: flex;
+    width: 50%;
+    flex-direction: row;
+    justify-content: space-around;
+}
+nav ul li {
+    list-style: none;
+    padding: 10px;
+    font-size: 1.2rem;
+    text-decoration: none;
+
+    border-radius: 5px;
+}
+
+#allEvents {
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+#addEvent {
+    margin-top: 20px;
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+}
+#addEvent button {
+    grid-column-start: 3;
+}
+
+.events {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #f2f2f200;
+    cursor: pointer;
+}
+.events:hover {
+    background-color: #bebebe;
+}
+
+.eventMain {
+    width: 70%;
+    margin: 20px auto;
+    font-size: 1.2rem;
+}
