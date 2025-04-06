@@ -37,7 +37,7 @@ Cream în directorul containers06 fișierul docker-compose.yml cu următorul con
 
 Cream fisierul mysql.env în rădăcina proiectului și adăugam în el următoarele linii:
 
-![image](https://github.com/user-attachments/assets/52f20f37-0493-4c8e-960d-4614a9045a07)
+![image](https://github.com/user-attachments/assets/8614997a-ccab-4474-bdcd-280f92703de5)
 
 # Pornire și testare
 
@@ -45,11 +45,11 @@ Pornim containerele cu comanda:
 
 docker-compose up -d
 
-![image](https://github.com/user-attachments/assets/acdc008c-ede1-42ee-bac5-612f80b8c822)
+![image](https://github.com/user-attachments/assets/52f20f37-0493-4c8e-960d-4614a9045a07)
 
 Verificam funcționarea site-ului în browser, trecând la adresa http://localhost.
 
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/acdc008c-ede1-42ee-bac5-612f80b8c822)
 
 # Răspunsuri la întrebările:
 
