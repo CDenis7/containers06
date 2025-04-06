@@ -1,3 +1,4 @@
+# Crearea unei aplicații multi-containe
 # Scopul lucrării
 
 Famialiarizarea cu gestiunea aplicației multi-container creat cu docker-compose.
